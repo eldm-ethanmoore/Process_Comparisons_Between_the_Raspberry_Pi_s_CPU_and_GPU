@@ -1,0 +1,123 @@
+@ARTICLE{Liu,
+  author={J. {Qiu} and B. {Liu} and J. {He} and C. {Liu} and Y. {Li}},
+  journal={IEEE Access}, 
+  title={Parallel Fast Pencil Drawing Generation Algorithm Based on GPU}, 
+  year={2019},
+  volume={7},
+  number={},
+  pages={83543-83555},
+  doi={10.1109/ACCESS.2019.2924658}}
+  
+@ARTICLE{Blair,
+  author={C. G. {Blair} and N. M. {Robertson}},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Video Anomaly Detection in Real Time on a Power-Aware Heterogeneous Platform}, 
+  year={2016},
+  volume={26},
+  number={11},
+  pages={2109-2122},
+  doi={10.1109/TCSVT.2015.2492838}}
+  
+@ARTICLE{Kang,
+  author={P. {Kang} and S. {Lim}},
+  journal={IEEE Access}, 
+  title={A Taste of Scientific Computing on the GPU-Accelerated Edge Device}, 
+  year={2020},
+  volume={8},
+  number={},
+  pages={208337-208347},
+  doi={10.1109/ACCESS.2020.3038714}}
+  
+@ARTICLE{Tang,
+  author={X. {Tang} and Z. {Fu}},
+  journal={IEEE Access}, 
+  title={CPU–GPU Utilization Aware Energy-Efficient Scheduling Algorithm on Heterogeneous Computing Systems}, 
+  year={2020},
+  volume={8},
+  number={},
+  pages={58948-58958},
+  doi={10.1109/ACCESS.2020.2982956}}
+
+@inproceedings{Dev,
+author = {Dev, Kapil and Reda, Sherief},
+title = {Scheduling Challenges and Opportunities in Integrated CPU+GPU Processors},
+year = {2016},
+isbn = {9781450345439},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2993452.2994307},
+doi = {10.1145/2993452.2994307},
+abstract = {Heterogeneous processors with architecturally different devices (CPU and GPU) integrated on the same die provide good performance and energy efficiency for wide range of workloads. However, they also create challenges and opportunities in terms of scheduling workloads on the appropriate device. Current scheduling practices mainly use the characteristics of kernel workloads to decide the CPU/GPU mapping. In this paper we first provide detailed infrared imaging results that show the impact of mapping decisions on the thermal and power profiles of CPU+GPU processors. Furthermore, we observe that runtime conditions such as power and CPU load from traditional workloads also affect the mapping decision. To exploit our observations, we propose techniques to characterize the OpenCL kernel workloads during run-time and map them on appropriate device under time-varying physical (i.e., chip power limit) and CPU load conditions, in particular the number of available CPU cores for the OpenCL kernel. We implement our dynamic scheduler on a real CPU+GPU processor and evaluate it using various OpenCL benchmarks. Compared to the state-of-the-art kernel-level scheduling method, the proposed scheduler provides up to 31% and 10% improvements in runtime and energy, respectively.},
+booktitle = {Proceedings of the 14th ACM/IEEE Symposium on Embedded Systems for Real-Time Multimedia},
+pages = {78–83},
+numpages = {6},
+keywords = {scheduling, OpenCL kernels, infrared imaging, Heterogeneous CPU+GPU processors},
+location = {Pittsburgh, PA, USA},
+series = {ESTIMedia'16}
+}
+
+@inproceedings{Jianqiao,
+author = {Liu, Jianqiao and Hegde, Nikhil and Kulkarni, Milind},
+title = {Hybrid CPU-GPU Scheduling and Execution of Tree Traversals},
+year = {2016},
+isbn = {9781450343619},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2925426.2926261},
+doi = {10.1145/2925426.2926261},
+abstract = {GPUs offer the promise of massive, power-efficient parallelism. However, exploiting this parallelism requires code to be carefully structured to deal with the limitations of the SIMT execution model. In recent years, there has been much interest in mapping irregular applications to GPUs: applications with unpredictable, data-dependent behaviors. While most of the work in this space has focused on ad hoc implementations of specific algorithms, recent work has looked at generic techniques for mapping a large class of tree traversal algorithms to GPUs, through careful restructuring of the tree traversal algorithms to make them behave more regularly. Unfortunately, even this general approach for GPU execution of tree traversal algorithms is reliant on ad hoc, hand-written, algorithm-specific scheduling (i.e., assignment of threads to warps) to achieve high performance.The key challenge of scheduling is that it is a highly irregular process, that requires the inspection of thread behavior and then careful sorting of those threads into warps. In this paper, we present a novel scheduling and execution technique for tree traversal algorithms that is both general and automatic. The key novelty is a hybrid, inspector-executor approach: the GPU partially executes tasks to inspect thread behavior and transmits information back to the CPU, which uses that information to perform the scheduling itself, before executing the remaining, carefully scheduled, portion of the traversals on the GPU. We applied this framework to six tree traversal algorithms, achieving significant speedups over optimized GPU code that does not perform application-specific scheduling. Further, we show that in many cases, our hybrid approach is able to deliver better performance even than GPU code that uses handtuned, application-specific scheduling.},
+booktitle = {Proceedings of the 2016 International Conference on Supercomputing},
+articleno = {2},
+numpages = {12},
+keywords = {Irregular applications, Scheduling, Tree traversal, GPU, Heterogeneous architectures},
+location = {Istanbul, Turkey},
+series = {ICS '16}
+}
+
+@ARTICLE{Cea-Dominguez,  author={C. {De Cea-Dominguez} and J. C. {Moure-Lopez} and J. {Bartrina-Rapesta} and F. {Aulí-Llinàs}},  journal={IEEE Access},   title={GPU-Oriented Architecture for an End-to-End Image/Video Codec Based on JPEG2000},   year={2020},  volume={8},  number={},  pages={68474-68487},  doi={10.1109/ACCESS.2020.2985859}}
+
+@ARTICLE{Ni,  author={Z. {Li} and J. {Ni} and F. {Zhang} and W. {Li} and Y. {Zhou}},  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},   title={Multi-GPU Implementation of Nearest-Regularized Subspace Classifier for Hyperspectral Image Classification},   year={2020},  volume={13},  number={},  pages={3534-3544},  doi={10.1109/JSTARS.2020.3004064}}
+
+@ARTICLE{Idzenga,
+  author={T. {Idzenga} and E. {Gaburov} and W. {Vermin} and J. {Menssen} and C. L. {De Korte}},
+  journal={IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control}, 
+  title={Fast 2-D ultrasound strain imaging: the benefits of using a GPU}, 
+  year={2014},
+  volume={61},
+  number={1},
+  pages={207-213},
+  doi={10.1109/TUFFC.2014.2893}}
+
+@ARTICLE{Lee,
+  author={W. {Lee} and R. C. -. {Phan} and B. {Goi} and L. {Chen} and X. {Zhang} and N. N. {Xiong}},
+  journal={IEEE Access}, 
+  title={Parallel and High Speed Hashing in GPU for Telemedicine Applications}, 
+  year={2018},
+  volume={6},
+  number={},
+  pages={37991-38002},
+  doi={10.1109/ACCESS.2018.2849439}}
+  
+  @ARTICLE{Jimenez,  author={E. {Ochoa-Jiménez} and L. {Rivera-Zamarripa} and N. {Cruz-Cortés} and F. {Rodríguez-Henríquez}},  journal={IEEE Access},   title={Implementation of RSA Signatures on GPU and CPU Architectures},   year={2020},  volume={8},  number={},  pages={9928-9941},  doi={10.1109/ACCESS.2019.2963826}}
+  
+  @ARTICLE{Rakvic,  author={R. {Rakvic} and R. {Broussard} and H. {Ngo}},  journal={IEEE Access},   title={Energy Efficient Iris Recognition With Graphics Processing Units},   year={2016},  volume={4},  number={},  pages={2831-2839},  doi={10.1109/ACCESS.2016.2571747}}
+  
+  @ARTICLE{Huang,
+  author={Huang, Qinghua and Lu, Naida},
+  journal={IEEE Access}, 
+  title={Optimized Real-Time MUSIC Algorithm With CPU-GPU Architecture}, 
+  year={2021},
+  volume={9},
+  number={},
+  pages={54067-54077},
+  doi={10.1109/ACCESS.2021.3070980}}
+  
+  @ARTICLE{Cheuk,
+  author={Cheuk, Kin Wai and Anderson, Hans and Agres, Kat and Herremans, Dorien},
+  journal={IEEE Access}, 
+  title={nnAudio: An on-the-Fly GPU Audio to Spectrogram Conversion Toolbox Using 1D Convolutional Neural Networks}, 
+  year={2020},
+  volume={8},
+  number={},
+  pages={161981-162003},
+  doi={10.1109/ACCESS.2020.3019084}}
